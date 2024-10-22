@@ -4,10 +4,10 @@ class Producto extends HTMLElement {
         const name = this.getAttribute("name");
         const html = `<div class="card">
         <img src="./img/${name}.jpg" alt="${name}">
-        <span>${name.toUpperCase}</span>
+        <span>${name.toUpperCase()}</span>
     </div>`;
     this.insertAdjacentHTML("beforeend", html);
     }
 }
 
-customElements.define("producto", Producto);
+customElements.define("card-producto", Producto);
