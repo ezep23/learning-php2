@@ -1,3 +1,4 @@
+
 class Producto extends HTMLElement {
     constructor(){
         super();
