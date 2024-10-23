@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <script type="module" src="./index.js"></script>
+    <script type="module" src="./components/AppElement.js"></script>
     <title>Product Web Component</title>
 </head>
 <body>
 
     <!-- Custom elements -> por lo menos dos palabras separadas con guíon -->
-    <card-producto name="martillo"></card-producto>
-    <card-producto name="hacha"></card-producto>
-    <card-producto name="destornillador"></card-producto>
+    <card-producto></card-producto>
+
+    <!-- Segunda forma -->
+    <app-element></app-element>
+
+    <!-- Tercera forma -->
+    <container-card></container-card>
+
+    <!-- Cuarta forma -->
+     <cartitas-container></cartitas-container> // Esta forma es utilizada en Vue
 
 </body>
 </html>
