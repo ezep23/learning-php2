@@ -1,5 +1,15 @@
 const template = document.createElement("template");
 template.innerHTML = /* html */`
+  <!-- CSS -->
+  <style>
+        @scope { <!-- Utilizando una regla para alcance del css (2da más utilizada) -->
+          h1 {
+            background: hotpink;
+            color: white;
+          }
+        }
+  </style>
+  <!-- HTML -->
   <div class="card">
     <h1>Boca</h1>
   </div>`;
